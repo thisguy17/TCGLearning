@@ -1,0 +1,46 @@
+steps overview:
+
+I. save main scene
+
+II. create objects for components
+
+III. nest objects for parts of components
+
+IV. use sprite editor to change aspects of images
+
+V. 
+
+notes:
+
+save untitled SCENE with a name
+
+create CANVAS for displaying UI objects
+
+- set RENDER MODE as WORLD SPACE: makes canvas into object in world
+- set POSITION as 0, 0, 0
+- set SCALE to 0.005x0.005x1
+- set WIDTH and HEIGHT to 400x600
+
+create PANEL in canvas
+
+- remove image COMPONENT of panel
+- name panel object
+
+create empty objects as containers of game objects
+
+- create spellcard object
+	- put canvas object here
+
+add UI>IMAGE to spellcard object; rename to cardbody
+
+- scale image to fit within container object appropriately
+- change image ANCHORS to edges of container(or elsewhere)
+- use preset sizes to fit within containers (option under rect transform)
+
+add SPRITE to cardbody for background
+
+- click and drag sprite to SOURCE IMAGE
+- edit sprite by r.click
+- change sprite mode to MULTIPLE to use parts of it at a time
+- get sprites from OPENGAMEART.COM or FREEPIK.COM
+
